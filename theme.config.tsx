@@ -1,3 +1,4 @@
+import { useConfig } from 'nextra-theme-docs';
 import { Callout } from 'nextra/components';
 import React from 'react';
 
@@ -6,6 +7,29 @@ export default {
     return {
       titleTemplate: '%s - L2 Guide Hub'
     }
+  },
+  head: function useHead() {
+    const { title, frontMatter } = useConfig()
+
+    return (
+      <>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta httpEquiv="Content-Language" content="en" />
+        <meta
+          name="description"
+          content={frontMatter.description || 'Discover comprehensive guides, tips, and strategies for Lineage 2. Level up your gameplay, find the best farming spots, and optimize your character builds. Join our community and unleash your true potential in Lineage 2!'}
+        />
+        <meta
+          name="og:description"
+          content={frontMatter.description || 'Discover comprehensive guides, tips, and strategies for Lineage 2. Level up your gameplay, find the best farming spots, and optimize your character builds. Join our community and unleash your true potential in Lineage 2!'}
+        />
+        <meta
+          name="og:title"
+          content={title}
+        />
+        <meta name="apple-mobile-web-app-title" content="L2 Guide Hub" />
+      </>
+    )
   },
   logo: <span>L2 Guide Hub</span>,
   feedback: {
