@@ -1,8 +1,8 @@
 import { useConfig } from 'nextra-theme-docs';
-import { Callout } from 'nextra/components';
 import React from 'react';
 
 export default {
+  docsRepositoryBase: 'https://github.com/Takeno/l2-guide-hub/tree/main',
   useNextSeoProps() {
     return {
       titleTemplate: '%s - L2 Guide Hub'
@@ -35,9 +35,9 @@ export default {
   feedback: {
     content: null,
   },
-  editLink: {
-    component: () => null,
-  },
+  // editLink: {
+  //   component: () => null,
+  // },
   navigation: {
     prev: false,
     next: false,
