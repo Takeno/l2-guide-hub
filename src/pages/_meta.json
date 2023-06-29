@@ -1,10 +1,13 @@
 {
   "index": {
-    "title": " ",
-    "display": "hidden"
+    "title": "Home"
   },
-  "forgotten-power": "Forgotten Power",
-  "soul-crystals": "Soul Crystals",
-  "talismans": "Talismans",
-  "jewels": "Jewels"
+  "getting-started": "",
+  "guides": "Guides",
+  "references": "Reference",
+  "l2central": {
+    "title": "L2Central",
+    "type": "page",
+    "href": "https://l2central.info/main/"
+  }
 }
