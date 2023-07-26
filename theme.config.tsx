@@ -1,5 +1,6 @@
 import { useConfig } from 'nextra-theme-docs';
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 export default {
   docsRepositoryBase: 'https://github.com/Takeno/l2-guide-hub/tree/main',
@@ -51,12 +52,15 @@ export default {
   // ),
   footer: {
     text: (
+      <>
       <span>
         Developed by{' '}
         <a href="https://twitter.com/matteomanchi" target="_blank">
           Takeno
         </a>
       </span>
+      <Analytics />
+      </>
     )
   },
 }
