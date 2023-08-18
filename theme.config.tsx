@@ -6,7 +6,7 @@ export default {
   docsRepositoryBase: 'https://github.com/Takeno/l2-guide-hub/tree/main',
   useNextSeoProps() {
     return {
-      titleTemplate: '%s - L2 Guide Hub'
+      titleTemplate: '%s - L2 Duckpedia'
     }
   },
   head: function useHead() {
@@ -28,11 +28,11 @@ export default {
           name="og:title"
           content={title}
         />
-        <meta name="apple-mobile-web-app-title" content="L2 Guide Hub" />
+        <meta name="apple-mobile-web-app-title" content="L2 Duckpedia" />
       </>
     )
   },
-  logo: <span>L2 Guide Hub</span>,
+  logo: <span>L2 Duckpedia</span>,
   feedback: {
     content: null,
   },
@@ -52,15 +52,12 @@ export default {
   // ),
   footer: {
     text: (
-      <>
-      <span>
-        Developed by{' '}
-        <a href="https://twitter.com/matteomanchi" target="_blank">
-          Takeno
-        </a>
-      </span>
-      <Analytics />
-      </>
+      <div style={{textAlign: 'center'}}>
+        <p>
+          This is a fan website developed by <a href="https://twitter.com/matteomanchi" target="_blank">Takeno</a>. The use of the service is for informational purposes only. You can familiarize yourself with the original version of the game Lineage 2 on the official servers at <a rel="noindex nofollow" href="https://eu.4game.com/lineage2/">4Game Lineage 2</a>.
+        </p>
+        <Analytics />
+      </div>
     )
   },
 }

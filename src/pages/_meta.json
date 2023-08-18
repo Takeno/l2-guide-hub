@@ -2,7 +2,6 @@
   "index": {
     "title": "Home"
   },
-  "getting-started": "",
   "guides": "Guides",
   "references": "Reference",
   "faq": "FAQ",
@@ -10,5 +9,10 @@
     "title": "L2Central",
     "type": "page",
     "href": "https://l2central.info/main/"
+  },
+  "contribute": {
+    "title": "Contribute",
+    "type": "page",
+    "href": "/#how-to-contribute"
   }
 }
