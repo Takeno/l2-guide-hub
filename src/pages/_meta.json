@@ -6,10 +6,10 @@
   "references": "Reference",
   "faq": "FAQ",
   "tools": "Tools",
-  "l2central": {
-    "title": "L2Central",
+  "l2wiki": {
+    "title": "L2Wiki",
     "type": "page",
-    "href": "https://l2central.info/main/"
+    "href": "https://l2wiki.com/main/"
   },
   "contribute": {
     "title": "Contribute",
